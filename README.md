@@ -1,60 +1,65 @@
-                                                        #Multi-Client Chat Application using TCP Sockets in C++
+# Real-Time Multi-Client TCP Chat Application
 
-A real-time chat application built using C++, WinSock2, TCP sockets, and multithreading. The server can handle multiple clients simultaneously, and messages sent by one client are broadcast to all connected clients.
+A real-time chat application built in **C++** using **TCP sockets**, **WinSock2**, and **multithreading**. The server supports multiple clients simultaneously and broadcasts messages between connected users in real time.
 
-**Features:**
+![Chat Application](![Chat Application](https://github.com/yourusername/repo-name/blob/main/Screenshots/chat.png))
+![Chat Application]([https://github.com/sandeepkr10229/Multi-Client-Chat-Server/blob/main/chat%20app%202.png?raw=true])
 
-TCP-based communication
-Multi-client support
-Multithreaded server architecture
-Real-time message broadcasting
-Custom chat usernames
-Built using WinSock2 on Windows
+## Features
 
-**Technologies Used:**
+* Real-time messaging
+* Multi-client support
+* TCP-based communication
+* Multithreaded server architecture
+* Message broadcasting to connected clients
+* Custom chat usernames
+* Built using WinSock2 on Windows
 
-C++
-WinSock2 API
-TCP/IP Networking
-Multithreading 
-Visual Studio
+## Technologies Used
 
-**How It Works**
+* C++
+* WinSock2 API
+* TCP/IP Networking
+* Multithreading 
+* Visual Studio
 
-The server starts listening on a specified port.
-Clients connect to the server using TCP.
-A separate thread is created for each connected client.
-Messages received from one client are broadcast to all other connected clients.
-Clients can send and receive messages simultaneously using separate sender and receiver threads.
+## How It Works
 
-**How to Run:**
+1. The server starts listening on a specified port.
+2. Clients connect to the server using TCP sockets.
+3. A dedicated thread is created for each connected client.
+4. Messages received from a client are broadcast to all other connected clients.
+5. Clients can send and receive messages simultaneously using separate sender and receiver threads.
 
-1. Clone the Repository
+## Getting Started
 
-git clone
+### 1. Clone the Repository
 
-2. Open in Visual Studio
+```bash
+git clone <repository-url>
+```
 
-Open the solution/project in Visual Studio.
+### 2. Open in Visual Studio
 
-3. Build the Project
+Open the project/solution in Visual Studio.
 
-Build both the Server and Client projects.
+### 3. Build the Project
 
-4. Start the Server
+Build both the **Server** and **Client** projects.
 
-Run the server executable first.
+### 4. Run the Server
 
-5. Start Multiple Clients
+Start the server executable first.
 
-Run multiple instances of the client executable.
+### 5. Run Multiple Clients
 
-
-
-Enjoyy!!
+Launch multiple instances of the client executable and enter a username when prompted.
 
 
-Author
 
-Sandeep Kumar
+## Author
+
+**Sandeep Kumar**
 B.Tech EE, DTU
+
+Happy Coding!
