@@ -2,8 +2,11 @@
 
 A real-time chat application built in **C++** using **TCP sockets**, **WinSock2**, and **multithreading**. The server supports multiple clients simultaneously and broadcasts messages between connected users in real time.
 
-![Chat Application](![Chat Application](https://github.com/yourusername/repo-name/blob/main/Screenshots/chat.png))
-![Chat Application]([https://github.com/sandeepkr10229/Multi-Client-Chat-Server/blob/main/chat%20app%202.png?raw=true])
+## Screenshot
+
+![Chat Application](chat%20app%20.png)
+
+![Chat Application 2](chat%20app%202.png)
 
 ## Features
 
