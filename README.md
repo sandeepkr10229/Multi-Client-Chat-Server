@@ -1,4 +1,4 @@
-**#Multi-Client Chat Application using TCP Sockets in C++**
+                                                        #Multi-Client Chat Application using TCP Sockets in C++
 
 A real-time chat application built using C++, WinSock2, TCP sockets, and multithreading. The server can handle multiple clients simultaneously, and messages sent by one client are broadcast to all connected clients.
 
@@ -18,11 +18,6 @@ WinSock2 API
 TCP/IP Networking
 Multithreading 
 Visual Studio
-
-
-├── Server.cpp
-├── Client.cpp
-└── README.md
 
 **How It Works**
 
